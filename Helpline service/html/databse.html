@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>database</title>
+    <link rel="stylesheet" href="../css/database.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <img src="../img copy/img/student.png.png" />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="title">HOME</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="laptop-outline"></ion-icon>
+              </span>
+              <span class="title">SERVICES</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="copy-outline"></ion-icon>
+              </span>
+              <span class="title">About us</span>
+            </a>
+          </li>
+          <li class="outt">
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="copy-outline"></ion-icon>
+              </span>
+              <span class="title" id="log">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <h1 class="heading">WELCOME TO OUR Helpline Service</h1>
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="grid-outline"></ion-icon>
+          </div>
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search here" />
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+          </div>
+        </div>
+        <div class="cardBox">
+          <div class="card"><a href="https://medulance.com/">
+            <div>
+              <div class="number">1</div>
+              <div class="cardName">Ambulance</div>
+            </div></a>
+            <div class="iconBox"><img src="..//imgs/hh.jpg" alt="" /></div>
+          </div>
+          <div class="card"><a href="https://cghealth.nic.in/cghealth17/">
+            <div>
+              <div class="number">2</div>
+              <div class="cardName">Health & care</div>
+            </div>
+            <div class="iconBox">
+              <img src="..//imgs/ak.jpg" />
+            </div>
+          </div></a>
+          <div class="card"><a href="https://www.police.gov.in/">
+            <div>
+              <div class="number">3</div>
+              <div class="cardName">POLICE</div>
+            </div>
+            <div class="iconBox"><img src="..//imgs/ppw.jpg" /></div>
+          </div></a>
+          <div class="card"><a href="https://dgfscdhg.gov.in/about-fire-service">
+            <div>
+              <div class="number">4</div>
+              <div class="cardName">Fire Brigade</div>
+            </div>
+            <div class="iconBox">
+              <img src="..//imgs/bh.jpg" />
+            </div>
+          </div></a>
+        </div>
+        <section></section>
+      </div>
+    </div>
+    
+    <script>
+     
+  document.getElementById('log').addEventListener('click', function() {  
+  alert('You have been logged out');
+  window.location.href="loginn.html"
+ 
+});
+
+
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
